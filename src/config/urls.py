@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludar/', views.saludar),
     path('inicio/', views.inicio),
+    path('jlvariables/', views.jlvariables),
 
 ]

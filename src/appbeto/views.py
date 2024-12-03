@@ -11,10 +11,15 @@ def saludar(request):
 #como opcion mejorada y alternativa es simplemente llamar a un archivo html que sea elaborado
 #por un experto en front y listo eso lo vemos aca:
 def inicio(request):
-	return render(request, 'appbeto/index.html')
+	return render(request, 'appbeto/inicio.html')
 
-
-
+def jlvariables(request):
+	datos = {
+		'variable01' : 'hola, variable1',
+		'variable02' : 'hola, variable2',
+		'variable03' : 'hola, variable3',
+	}
+	return render(request, 'appbeto/inicio.html', context=datos)
 
 
 # Create your views here.
