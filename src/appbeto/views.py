@@ -11,7 +11,7 @@ def saludar(request):
 #como opcion mejorada y alternativa es simplemente llamar a un archivo html que sea elaborado
 #por un experto en front y listo eso lo vemos aca:
 def inicio(request):
-	return render(request, 'appbeto/inicio.html')
+	return render(request, 'appbeto/Positronix.html')
 
 def jlvariables(request):
 	datos = {
